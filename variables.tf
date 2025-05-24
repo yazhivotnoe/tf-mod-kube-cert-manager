@@ -30,8 +30,8 @@ variable "manual_point_version_enable" {
   type    = bool
 }
 
-variable "version" {
-  default = "1.17.1" # last version 20 march 2025
+variable "chart_version" {
+  default = "1.17.1"
   type    = string
 }
 
